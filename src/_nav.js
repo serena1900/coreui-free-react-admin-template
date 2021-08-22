@@ -299,6 +299,18 @@ const _nav = [
       {
         _component: 'CNavItem',
         as: NavLink,
+        anchor: 'User',
+        to: '/user',
+      },
+      {
+        _component: 'CNavItem',
+        as: NavLink,
+        anchor: 'Test',
+        to: '/test',
+      },
+      {
+        _component: 'CNavItem',
+        as: NavLink,
         anchor: 'Register',
         to: '/register',
       },
